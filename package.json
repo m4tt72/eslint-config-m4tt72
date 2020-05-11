@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config-m4tt72",
+  "version": "1.0.0",
+  "description": "ESLint and Prettier Config",
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "eslint",
+    "lint",
+    "config",
+    "prettier"
+  ],
+  "main": "index.js",
+  "repository": "git@github.com:m4tt72/eslint-config-m4tt72.git",
+  "author": "Yassine Fathi <hi@m4tt72.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix"
+  },
+  "peerDependencies": {
+    "eslint-config-airbnb": "^18.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.14.2"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^18.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.14.2"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-html": "^6.0.2",
+    "prettier": "^2.0.5"
+  }
+}
