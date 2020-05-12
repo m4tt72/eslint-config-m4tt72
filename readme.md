@@ -4,7 +4,7 @@ My personal config for ESLint and Prettier
 
 ## Installation
 
-1. jWe need to install everything needed by the config:
+1. We need to install everything needed by the config:
 
 ```bash
 npx install-peerdeps --dev eslint-config-m4tt72
