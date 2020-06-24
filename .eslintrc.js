@@ -12,13 +12,6 @@ module.exports = {
     es6: true,
   },
   rules: {
-    'no-unused-vars': [
-      1,
-      {
-        ignoreSiblings: true,
-        argsIgnorePattern: 'res|next|^err',
-      },
-    ],
     'react/prop-types': 0,
     'react/jsx-filename-extension': [
       1,
